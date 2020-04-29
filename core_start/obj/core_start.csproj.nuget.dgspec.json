@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\我的资料\\net_core学习demo\\core_start\\core_start\\core_start.csproj": {}
+    "E:\\我的资料\\net_core学习demo\\net_core-start\\core_start\\core_start.csproj": {}
   },
   "projects": {
-    "E:\\我的资料\\net_core学习demo\\core_start\\core_start\\core_start.csproj": {
+    "E:\\我的资料\\net_core学习demo\\net_core-start\\core_start\\core_start.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\我的资料\\net_core学习demo\\core_start\\core_start\\core_start.csproj",
+        "projectUniqueName": "E:\\我的资料\\net_core学习demo\\net_core-start\\core_start\\core_start.csproj",
         "projectName": "core_start",
-        "projectPath": "E:\\我的资料\\net_core学习demo\\core_start\\core_start\\core_start.csproj",
+        "projectPath": "E:\\我的资料\\net_core学习demo\\net_core-start\\core_start\\core_start.csproj",
         "packagesPath": "C:\\Users\\少年别封\\.nuget\\packages\\",
-        "outputPath": "E:\\我的资料\\net_core学习demo\\core_start\\core_start\\obj\\",
+        "outputPath": "E:\\我的资料\\net_core学习demo\\net_core-start\\core_start\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -45,6 +45,10 @@
             "BuildBundlerMinifier": {
               "target": "Package",
               "version": "[3.2.447, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
             }
           },
           "imports": [

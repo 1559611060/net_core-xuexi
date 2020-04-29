@@ -1,4 +1,5 @@
-﻿using core_start.Service;
+﻿using core_start.Models;
+using core_start.Service;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,7 @@ namespace core_start.Controllers
     {
         public HomeController(IClock clock)
         {
-
+           // Task<IEnumerable<Department>> _departments = new DepatmentService().GetAll();
         }
     }
 }

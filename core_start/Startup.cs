@@ -28,6 +28,8 @@ namespace core_start
             //services.AddTransient<IClock, UtcClock>();
             //services.AddScoped<IClock, UtcClock>();
 
+            services.AddSingleton<IDepartmentSevice, DepatmentService>();
+            services.AddSingleton<IEmpyloyeeService, EmployeeService>();
         }
 
         // 此方法由运行时调用。使用此方法配置HTTP请求管道。

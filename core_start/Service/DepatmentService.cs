@@ -59,6 +59,11 @@ namespace core_start.Service
                 };
             });
         }
+        /// <summary>
+        /// 添加部门
+        /// </summary>
+        /// <param name="department"></param>
+        /// <returns></returns>
         public Task Add(Department department) {
             department.Id = _departments.Max(x => x.Id) + 1;
             _departments.Add(department);
