@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PSmKUmB9tMUKSROKDrFSZVw4IoJ+hWIBt5TZfcvzDCRv30jmAbk3cppTZHGiaKWEwwmGBd+MAP/bUxeMOMjJSQ==",
+  "success": true,
+  "projectFilePath": "E:\\我的资料\\net_core学习demo\\core_start\\core_start\\core_start.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\少年别封\\.nuget\\packages\\buildbundlerminifier\\3.2.447\\buildbundlerminifier.3.2.447.nupkg.sha512"
+  ],
+  "logs": []
+}
