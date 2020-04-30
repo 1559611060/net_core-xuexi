@@ -6,13 +6,27 @@ using core_start.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 namespace core_start
 {
+
     public class Startup
     {
+        private readonly IConfiguration _configuration;
+        /// <summary>
+        /// 获取配置文件
+        /// IConfiguration：存储的是配置文件键值对
+        /// </summary>
+        /// <param name="configuration"></param>
+        public Startup(IConfiguration configuration)
+        {
+            this._configuration = configuration;
+            //var config = _configuration["core_start:BoldDepartmentEmployeeCountThreshold"];
+        }
+
         // 此方法由运行时调用。使用此方法将服务添加到容器中。
         // 有关如何配置应用程序的更多信息，请访问 https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
@@ -30,6 +44,10 @@ namespace core_start
 
             services.AddSingleton<IDepartmentSevice, DepatmentService>();
             services.AddSingleton<IEmpyloyeeService, EmployeeService>();
+
+            //配置文件 core_startOptions.cs 、appsettings.json
+            services.Configure<core_startOptions>(_configuration.GetSection(key: "core_start"));
+
         }
 
         // 此方法由运行时调用。使用此方法配置HTTP请求管道。

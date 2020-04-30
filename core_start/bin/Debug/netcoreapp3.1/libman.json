@@ -1,4 +1,5 @@
 {
+  //添加前端包的 json文件
   "version": "1.0",
   "defaultProvider": "unpkg",
   "libraries": [

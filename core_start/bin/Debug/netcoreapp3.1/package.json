@@ -1,8 +1,10 @@
+//添加前端包的 Npm json文件
 {
+
   "version": "1.0.0",
   "name": "asp.net",
   "private": true,
   "devDependencies": {
-   //"bootstrap": "4.4.1"//前端包
+
   }
 }

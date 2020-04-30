@@ -5,14 +5,19 @@ using System.Linq;
 using System.Threading.Tasks;
 using core_start.Service;
 using core_start.Models;
+using Microsoft.Extensions.Options;
+
 namespace core_start.Controllers
 {
     public class DepartmentController : Controller
     {
         private readonly IDepartmentSevice _departmentSevice;
-        public DepartmentController(IDepartmentSevice departmentSevice)
+        private readonly IOptions<core_startOptions> _core_Startoptions;
+
+        public DepartmentController(IDepartmentSevice departmentSevice,IOptions<core_startOptions> core_startoptions)
         {
             _departmentSevice = departmentSevice;
+            _core_Startoptions = core_startoptions;
         }
         public async Task<IActionResult> Index()
         {

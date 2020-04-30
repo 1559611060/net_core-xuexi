@@ -18,6 +18,14 @@ namespace core_start
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+                .ConfigureAppConfiguration((context, configBuilder) =>
+                {
+                    //清除掉其他所有源的 配置文件
+                    configBuilder.Sources.Clear();
+                   
+                    //添加新的配置文件
+                    configBuilder.AddJsonFile("nick.json");
+                })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

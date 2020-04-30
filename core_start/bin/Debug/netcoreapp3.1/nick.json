@@ -1,0 +1,8 @@
+{
+  //自定义新增的web配置文件
+  //配置信息
+  "core_start": {
+    "BoldDepartmentEmployeeCountThreshold": 30
+
+  }
+}
