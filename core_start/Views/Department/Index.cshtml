@@ -1,10 +1,8 @@
 ﻿@using core_start.Models
 @model IEnumerable<Department>
-
-
-@*@{ 
-    Layout = "_Layout";
-}*@
+@*@{
+        Layout = "_Layout";
+    }*@
 
 <div class="row">
     <div class="col-md-10 offset-md-2">
@@ -21,7 +19,21 @@
 </div>
 
 <div class="row">
-    <div class="col-md-4 offset-md-2">
+    <div class="col-md-2">
+        @*
+            调用展示 View component 页面内容
+            name: "CompanySummary" => 控制器名称
+            arguments：参数
+        *@
+        @await Component.InvokeAsync(name: "CompanySummary", arguments: new { title = "部门汇总" })
+        @*
+            my-test:控制器名称，小写横线隔开
+            title:参数
+        *@
+        <vc:my-test title="部门汇总2"></vc:my-test>
+
+    </div>
+    <div class="col-md-4 ">
         <a asp-action="Add">添加</a>
     </div>
 </div>
