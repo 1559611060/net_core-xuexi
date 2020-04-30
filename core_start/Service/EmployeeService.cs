@@ -71,7 +71,7 @@ namespace core_start.Service
         /// <returns></returns>
         public Task<IEnumerable<Employee>> GetByDepartmentId(int departmentId)
         {
-            return Task.Run(function:()=>_employees.Where(x=>x.Id==departmentId));
+            return Task.Run(function:()=>_employees.Where(x=>x.DepartmentId==departmentId));
         }
     }
 }

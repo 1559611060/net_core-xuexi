@@ -26,7 +26,7 @@ namespace core_start.Controllers
         {
             var department = await _departmentSevice.GetById(departmentId);
             ViewBag.Title = $"部门:{department.Name}";
-
+            ViewBag.DepartmentId = departmentId;
             var employees = await _empyloyeeService.GetByDepartmentId(departmentId);
             return View(employees);
         }
@@ -64,8 +64,8 @@ namespace core_start.Controllers
         /// <param name="employeeId"></param>
         /// <returns></returns>
         /// 
-        [HttpPost]
-        public async Task<IActionResult> Frie(int employeeId) {
+        //[HttpPost]
+        public async Task<IActionResult> Fire(int employeeId) {
             var employee = await _empyloyeeService.Frie(employeeId);
             return RedirectToAction(nameof(Index),routeValues:new { departmentId = employee.DepartmentId });
         }

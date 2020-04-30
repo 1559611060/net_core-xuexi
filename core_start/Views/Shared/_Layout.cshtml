@@ -12,10 +12,10 @@
         asp-href-exclude="all.min.css" ：不包括all.min.css文件
         -->
     <environment include="Development">
-        <link rel="stylesheet" asp-href-include="css/*" asp-href-exclude="all.min.css" />
+        <link rel="stylesheet" asp-href-include="css/*" asp-href-exclude="css/all.min.css" />
     </environment>
     <environment exclude="Development">
-        <link rel="stylesheet" asp-href-include="all.min.css"  />
+        <link rel="stylesheet" asp-href-include="css/all.min.css"  />
     </environment>
 </head>
 <body>
@@ -26,6 +26,9 @@
                    asp-append-version="true" :图片不会缓存，实时获取最新图片
                 -->
                 <img src="~/images/logo.jpg" alt="Logo" asp-append-version="true" style="height:60px;" />
+            </div>
+            <div class="col-md-10">
+                <span class="h2">@ViewBag.Title</span>
             </div>
         </div>
         <div class="row">

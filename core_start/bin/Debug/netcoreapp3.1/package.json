@@ -2,5 +2,7 @@
   "version": "1.0.0",
   "name": "asp.net",
   "private": true,
-  "devDependencies": {}
+  "devDependencies": {
+   //"bootstrap": "4.4.1"//Ç°¶Ë°ü
+  }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -9,8 +10,11 @@ namespace core_start.Models
     {
         public int Id { get; set; }
         public int DepartmentId { get; set; }//部门ID
+        [Display(Name = "姓名")]
         public string FirstName { get; set; }//姓名
+        [Display(Name ="名称")]
         public string LastName { get; set; }//名
+        [Display(Name ="性别")]
         public Gender Gender { get; set; }//性别
         public bool Fired { get; set; }//是否解雇
 

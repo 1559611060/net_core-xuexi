@@ -52,7 +52,6 @@ E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreap
 E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreapp3.1\core_start.RazorTargetAssemblyInfo.cs
 E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreapp3.1\core_start.Views.pdb
-E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreapp3.1\core_start.csprojAssemblyReference.cache
 E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreapp3.1\Razor\Views\Department\Index.cshtml.g.cs
 E:\我的资料\net_core学习demo\net_core-start\core_start\bin\Debug\netcoreapp3.1\core_start.exe
 E:\我的资料\net_core学习demo\net_core-start\core_start\bin\Debug\netcoreapp3.1\core_start.runtimeconfig.json
@@ -132,3 +131,9 @@ E:\我的资料\net_core学习demo\net_core-start\core_start\bin\Debug\netcoreap
 E:\我的资料\net_core学习demo\net_core-start\core_start\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreapp3.1\core_start.MvcApplicationPartsAssemblyInfo.cache
 E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreapp3.1\core_start.genruntimeconfig.cache
+E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreapp3.1\Razor\Views\Department\DisplayTemplates\Department.cshtml.g.cs
+E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreapp3.1\Razor\Views\Employee\DisplayTemplates\Employee.cshtml.g.cs
+E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Index.cshtml.g.cs
+E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreapp3.1\Razor\Views\Department\Add.cshtml.g.cs
+E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreapp3.1\core_start.csprojAssemblyReference.cache
+E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Add.cshtml.g.cs

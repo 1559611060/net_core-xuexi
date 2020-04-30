@@ -17,7 +17,7 @@ namespace core_start.Controllers
         public async Task<IActionResult> Index()
         {
             ViewBag.Title = "部门首页";
-            var department =await _departmentSevice.GetAll();
+            var department = await _departmentSevice.GetAll();
             return View(department);
         }
 

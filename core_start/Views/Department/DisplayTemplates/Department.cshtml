@@ -1,0 +1,18 @@
+﻿@model core_start.Models.Department
+<tr>
+    <td>@Model.Name</td>
+    <td>@Model.Location</td>
+    <td>@Model.EmployeeCount</td>
+
+    <td>
+        <!--
+        asp-controller:指定控制器
+        asp-action:指定视图
+        asp-route:指定参数(departmentId:index接收的参数名称)
+        -->
+        <a asp-controller="Employee" asp-action="Index" asp-route-departmentId="@Model.Id">
+            查看详情
+        </a>
+
+    </td>
+</tr>
