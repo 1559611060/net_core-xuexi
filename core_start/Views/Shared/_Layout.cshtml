@@ -4,13 +4,28 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    
+    <!--
+        environment:区分开发生产环境，可在不同环境执行不同代码
+        include="Development" ：开发环境
+        exclude="Development"：不包括开发环境
+        asp-href-include="css/*"：添加css文件夹下所有文件，
+        asp-href-exclude="all.min.css" ：不包括all.min.css文件
+        -->
+    <environment include="Development">
+        <link rel="stylesheet" asp-href-include="css/*" asp-href-exclude="all.min.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" asp-href-include="all.min.css"  />
+    </environment>
 </head>
 <body>
     <div class="container">
         <div class="row">
             <div class="col-md-2">
-                <img src="~/images/logo.jpg" alt="Logo" asp-append-ve style="height:60px;" />
+                <!--
+                   asp-append-version="true" :图片不会缓存，实时获取最新图片
+                -->
+                <img src="~/images/logo.jpg" alt="Logo" asp-append-version="true" style="height:60px;" />
             </div>
         </div>
         <div class="row">
