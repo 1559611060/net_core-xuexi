@@ -1,2 +1,6 @@
-﻿@addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers"
-@addTagHelper "*,core_start"
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@* zp: ： 可以自定义taghelper前缀 *@
+@*@tagHelperPrefix zp:*@
+@addTagHelper *,core_start
+

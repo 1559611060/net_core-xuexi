@@ -91,7 +91,7 @@ namespace core_start
                 //});
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Department}/{action=Index}/{id?}"
+                    pattern: "{controller=TagHelper}/{action=Index}/{id?}"
                     );
             });
         }

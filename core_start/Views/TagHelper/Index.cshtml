@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @*//自定义标签 pager*@
+    <pager pageIndex="Index" path="Department">跳转1</pager>
+    <pager pageIndex="Index" path="Department">跳转3</pager>
+    @* zp 前缀加！ 会原样输出 *@
+    @*<!zp:pager pageIndex="Index" path="Department">跳转2</!zp:pager>*@
+    @*<a pageIndex="Index" path="Department">sss</a>*@
+    @*<img src="~/images/logo.jpg" alt="Alternate Text" asp-append-version="true" />*@
+
+
+
+</body>
+</html>

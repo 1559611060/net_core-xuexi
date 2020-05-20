@@ -13,7 +13,7 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"295534e96f86ae4eec8030edc44df877d2421e15", @"/Views/Shared/Components/MyTest/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"99b2dbaeb09e79df0c43de938bf900b528238223", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7986cf81afda83fb9f1a732f910f473bfda6231e", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_MyTest_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<core_start.Models.CompanySummary>
     {
         #pragma warning disable 1998
