@@ -1,5 +1,5 @@
 
-core_start:内容目录(MVC)
+一、core_start:内容目录(MVC)
 	1.依赖注入
 	2.服务添加(需要哪些加哪些)
 	3.环境变量、中间件
@@ -10,3 +10,15 @@ core_start:内容目录(MVC)
 	8.配置信息：添加使用配置文件appsettings.json，自定义配置文件nick.json，在Program.cs文件里添加自定义配置信息
 	9.View component：优点可以到处复用，可以写后台代码(迷你controller，轻量级)
 	10.自定义TagHelper：自定义一个继承TagHelper的类
+
+二、RazorPages:内容目录(Razor Page):功能与MVC实现的一样
+	1.依赖注入
+	2.服务添加(需要哪些加哪些)
+	3.环境变量、中间件
+	4.前端包下载(bootstrap)：(1).npm安装包;(2).libman安装包
+	5.压缩合并文件：Nuget一个【BuildBundlerMinifier】包，使用json文件代码合并
+	6.建立controller 
+	7.使用Taghelper ：在 _ViewImports.cshtml 视图文件里设置全局，也可以单独再某个View视图里添加
+	8.配置信息：添加使用配置文件appsettings.json，自定义配置文件nick.json，在Program.cs文件里添加自定义配置信息
+	9.View component：优点可以到处复用，可以写后台代码(迷你controller，轻量级)
+
