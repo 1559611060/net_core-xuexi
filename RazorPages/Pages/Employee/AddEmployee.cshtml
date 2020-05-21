@@ -1,0 +1,48 @@
+﻿@page "departmentId:int"
+@model RazorPages.Pages.Employee.AddEmployeeModel
+@using RazorPages.Models;
+
+@{
+    ViewData["Title"] = "添加员工";
+}
+
+
+
+<form method="post">
+    
+    <div class="row form-group">
+        <div class="col-md-2 offset-md-2">
+            <label asp-for="Employee.FirstName"></label>
+        </div>
+        <div class="col-md-6">
+            <input class="form-control" asp-for="Employee.FirstName" />
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-md-2 offset-md-2">
+            <label asp-for="Employee.LastName"></label>
+        </div>
+        <div class="col-md-6">
+            <input class="form-control" asp-for="Employee.LastName" />
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-md-2 offset-md-2">
+            <label asp-for="Employee.Gender"></label>
+        </div>
+        <div class="col-md-6">
+            @*<input class="form-control" asp-for="Gender" />*@
+            <select class="form-control"
+                    asp-for="Employee.Gender"
+                    asp-items="Html.GetEnumSelectList<Gender>()">
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 offset-md-2">
+            <button type="submit" class="btn btn-primary">提交</button>
+        </div>
+    </div>
+</form>
+
+

@@ -1,0 +1,40 @@
+﻿@page
+@using RazorPages.Models
+@using RazorPages.Service
+@inject IDepartmentSevice departmentService
+
+
+
+<div class="row">
+    <div class="col-md-10 offset-md-2">
+        <table class="table">
+            <tr>
+                <th>名称</th>
+                <th>地址</th>
+                <th>人数</th>
+                <th>操作</th>
+            </tr>
+            @Html.DisplayFor(expression: x => x.Departments)
+        </table>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <a asp-page="Department/AddDepartment">添加</a>
+    </div>
+    <div class="col-md-4">
+        @await Component.InvokeAsync(name:"CompanySummary",arguments:new { title="总数统计"})
+        <vc:my-test title="总数统计2"></vc:my-test>
+    </div>
+</div>
+
+@functions
+{
+    public IEnumerable<RazorPages.Models.Department> Departments { get; set; }
+
+    public async Task OnGetAsync()
+    {
+        Departments = await departmentService.GetAll();
+    }
+}

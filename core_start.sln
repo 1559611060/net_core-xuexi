@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "目录", "目录", "{E19165
 		目录.txt = 目录.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPages", "RazorPages\RazorPages.csproj", "{03B429A6-B2B7-407C-8BF8-86EECF88ACD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{52FAA440-0E87-40AC-B897-5683AA14FB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52FAA440-0E87-40AC-B897-5683AA14FB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52FAA440-0E87-40AC-B897-5683AA14FB39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B429A6-B2B7-407C-8BF8-86EECF88ACD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B429A6-B2B7-407C-8BF8-86EECF88ACD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B429A6-B2B7-407C-8BF8-86EECF88ACD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B429A6-B2B7-407C-8BF8-86EECF88ACD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

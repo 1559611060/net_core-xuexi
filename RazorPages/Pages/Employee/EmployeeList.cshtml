@@ -1,0 +1,48 @@
+﻿@page "{departmentId:int}"
+@model EmployssListModel
+@using Microsoft.AspNetCore.Mvc.RazorPages
+@using RazorPages.Service
+@using RazorPages.Models
+
+<div class="row">
+    <div class="col-md-10 offset-md-2">
+        <table class="table">
+            <tr>
+                <th>姓名</th>
+                <th>名称</th>
+                <th>性别</th>
+                <th>是否离职</th>
+                <th>操作</th>
+            </tr>
+           @Html.DisplayFor(expression: x => x.Employees)
+        </table>
+        <a asp-page="AddEmployee" asp-route-departmentId="@ViewData["departmentId"]">添加</a>
+    </div>
+</div>
+
+
+
+@functions{
+    public class EmployssListModel : PageModel
+    {
+        public IEmpyloyeeService _empyloyeeService { get; set; }
+        public EmployssListModel(IEmpyloyeeService empyloyeeService)
+        {
+            _empyloyeeService = empyloyeeService;
+        }
+
+        public IEnumerable<Employee> Employees { get; set; }
+
+        //根据部门id获取员工
+        public async Task OnGet(int departmentId)
+        {
+            Employees = await _empyloyeeService.GetByDepartmentId(departmentId);
+            ViewData["DepartmentId"] = departmentId;
+        }
+        public async Task<IActionResult> OnGetFireAsync(int employeeId,int depatmentId) {
+            await _empyloyeeService.Frie(employeeId);
+            return RedirectToPage("EmployeeList", routeValues: new { depatmentId });
+        }
+
+    }
+}

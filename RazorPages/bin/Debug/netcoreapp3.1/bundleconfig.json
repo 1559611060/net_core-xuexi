@@ -1,0 +1,19 @@
+[ 
+  //合并css文件
+  {
+    "outputFileName": "wwwroot/css/all.min.css",//输出文件名
+    "inputFiles": [//输入文件，多个文件合并
+      "wwwroot/css/site.css",
+      "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/bootstrap.css",
+    "inputFiles": [
+      "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+    ],
+    "minify": {
+      "enabled": true//对文件进行压缩
+    }
+  }
+]

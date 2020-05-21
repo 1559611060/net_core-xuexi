@@ -140,3 +140,4 @@ E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreap
 E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreapp3.1\core_start.pdb
 E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreapp3.1\core_start.genruntimeconfig.cache
 E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreapp3.1\Razor\Views\TagHelper\Index.cshtml.g.cs
+E:\我的资料\net_core学习demo\net_core-start\core_start\obj\Debug\netcoreapp3.1\core_start.csprojAssemblyReference.cache

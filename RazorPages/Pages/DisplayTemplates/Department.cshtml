@@ -1,0 +1,12 @@
+﻿@model RazorPages.Models.Department
+
+<tr>
+
+    <td>@Model.Name</td>
+    <td>@Model.Location</td>
+    <td>@Model.EmployeeCount</td>
+
+    <td>
+        <a asp-page="Employee/EmployeeList" asp-route-departmentId="@Model.Id">查看</a>
+    </td>
+</tr>

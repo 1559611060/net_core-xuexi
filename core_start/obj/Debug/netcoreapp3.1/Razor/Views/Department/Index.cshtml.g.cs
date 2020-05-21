@@ -20,9 +20,32 @@ using core_start.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bc75e80b6693d813d00d96beec23c1b81731c64e", @"/Views/Department/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7986cf81afda83fb9f1a732f910f473bfda6231e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"18b2b37bbfb041e5f6147691a1dbdc535d349b6b", @"/Views/_ViewImports.cshtml")]
     public class Views_Department_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Department>>
     {
+        private global::AspNetCore.Views_Department_Index.__Generated__MyTestViewComponentTagHelper __MyTestViewComponentTagHelper;
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Add", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        #line hidden
+        #pragma warning disable 0649
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext __tagHelperExecutionContext;
+        #pragma warning restore 0649
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner __tagHelperRunner = new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner();
+        #pragma warning disable 0169
+        private string __tagHelperStringValueBuffer;
+        #pragma warning restore 0169
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager __backed__tagHelperScopeManager = null;
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager __tagHelperScopeManager
+        {
+            get
+            {
+                if (__backed__tagHelperScopeManager == null)
+                {
+                    __backed__tagHelperScopeManager = new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager(StartTagHelperWritingScope, EndTagHelperWritingScope);
+                }
+                return __backed__tagHelperScopeManager;
+            }
+        }
+        private global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
@@ -54,7 +77,41 @@ using core_start.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n");
-            WriteLiteral("        <vc:my-test title=\"部门汇总2\"></vc:my-test>\r\n\r\n    </div>\r\n    <div class=\"col-md-4 \">\r\n        <a asp-action=\"Add\">添加</a>\r\n    </div>\r\n</div>");
+            WriteLiteral("        ");
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("vc:my-test", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bc75e80b6693d813d00d96beec23c1b81731c64e4323", async() => {
+            }
+            );
+            __MyTestViewComponentTagHelper = CreateTagHelper<global::AspNetCore.Views_Department_Index.__Generated__MyTestViewComponentTagHelper>();
+            __tagHelperExecutionContext.Add(__MyTestViewComponentTagHelper);
+            BeginWriteTagHelperAttribute();
+            WriteLiteral("部门汇总2");
+            __tagHelperStringValueBuffer = EndWriteTagHelperAttribute();
+            __MyTestViewComponentTagHelper.title = __tagHelperStringValueBuffer;
+            __tagHelperExecutionContext.AddTagHelperAttribute("title", __MyTestViewComponentTagHelper.title, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+            await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
+            if (!__tagHelperExecutionContext.Output.IsContentModified)
+            {
+                await __tagHelperExecutionContext.SetOutputContentAsync();
+            }
+            Write(__tagHelperExecutionContext.Output);
+            __tagHelperExecutionContext = __tagHelperScopeManager.End();
+            WriteLiteral("\r\n\r\n    </div>\r\n    <div class=\"col-md-4 \">\r\n        ");
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bc75e80b6693d813d00d96beec23c1b81731c64e5713", async() => {
+                WriteLiteral("添加");
+            }
+            );
+            __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper>();
+            __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper);
+            __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.Action = (string)__tagHelperAttribute_0.Value;
+            __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_0);
+            await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
+            if (!__tagHelperExecutionContext.Output.IsContentModified)
+            {
+                await __tagHelperExecutionContext.SetOutputContentAsync();
+            }
+            Write(__tagHelperExecutionContext.Output);
+            __tagHelperExecutionContext = __tagHelperScopeManager.End();
+            WriteLiteral("\r\n    </div>\r\n</div>");
         }
         #pragma warning restore 1998
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
@@ -67,6 +124,25 @@ using core_start.Models;
         public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
         public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<IEnumerable<Department>> Html { get; private set; }
+        [Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute("vc:my-test")]
+        public class __Generated__MyTestViewComponentTagHelper : Microsoft.AspNetCore.Razor.TagHelpers.TagHelper
+        {
+            private readonly global::Microsoft.AspNetCore.Mvc.IViewComponentHelper __helper = null;
+            public __Generated__MyTestViewComponentTagHelper(global::Microsoft.AspNetCore.Mvc.IViewComponentHelper helper)
+            {
+                __helper = helper;
+            }
+            [Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeNotBoundAttribute, global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewContextAttribute]
+            public global::Microsoft.AspNetCore.Mvc.Rendering.ViewContext ViewContext { get; set; }
+            public System.String title { get; set; }
+            public override async global::System.Threading.Tasks.Task ProcessAsync(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext __context, Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput __output)
+            {
+                (__helper as global::Microsoft.AspNetCore.Mvc.ViewFeatures.IViewContextAware)?.Contextualize(ViewContext);
+                var __helperContent = await __helper.InvokeAsync("MyTest", new { title });
+                __output.TagName = null;
+                __output.Content.SetHtmlContent(__helperContent);
+            }
+        }
     }
 }
 #pragma warning restore 1591

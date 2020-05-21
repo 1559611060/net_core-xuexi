@@ -9,7 +9,7 @@
         @* 部门人数超过 配置信息设定值 字体加粗 *@
         @if (Model.EmployeeCount > options.Value.BoldDepartmentEmployeeCountThreshold)
         {
-            <td><strong>@Model.Name<strong /></td>
+            <td><strong>@Model.Name<strong/></td>
         }
         else
         {
