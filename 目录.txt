@@ -22,3 +22,4 @@
 	8.配置信息：添加使用配置文件appsettings.json，自定义配置文件nick.json，在Program.cs文件里添加自定义配置信息
 	9.View component：优点可以到处复用，可以写后台代码(迷你controller，轻量级)
 
+	@aspnet/signalr@next
