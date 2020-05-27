@@ -1,0 +1,37 @@
+﻿@page "/Employee/{DepartmentId}"
+@* inherits EmployeeViewModel:继承某个类，前台代码太多可以放到后台完成 *@
+@inherits EmployeeViewModel
+
+@if (Employees==null)
+{
+    <p><em>加载中...</em></p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-10 offset-md-2">
+            <table class="table">
+                <tr>
+                    <th>姓名</th>
+                    <th>名称</th>
+                    <th>性别</th>
+                    <th>是否离职</th>
+                    <th>操作</th>
+                </tr>
+                <tbody>
+                @foreach (var item in Employees)
+                {
+                    <EmployeeItem employee="@item"></EmployeeItem>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 offset-md-2">
+            <a href="/Add-Employee/@DepartmentId">添加</a>
+        </div>
+    </div>
+}
+

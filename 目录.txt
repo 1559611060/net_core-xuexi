@@ -22,4 +22,7 @@
 	8.配置信息：添加使用配置文件appsettings.json，自定义配置文件nick.json，在Program.cs文件里添加自定义配置信息
 	9.View component：优点可以到处复用，可以写后台代码(迷你controller，轻量级)
 
-	@aspnet/signalr@next
+三、SignalR:(信息传递，可以做网页聊天，传送文件等二进制文件流)
+	1.前端libman地址：@aspnet/signalr@next
+	2.SignalR三种底层信息交互机制：Web Socket > Server Sent Events > Long Polling (回落机制自动选择某种机制，优先级排序)
+								   

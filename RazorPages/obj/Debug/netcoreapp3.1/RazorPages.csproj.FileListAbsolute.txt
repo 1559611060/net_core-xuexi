@@ -40,3 +40,4 @@ E:\我的资料\net_core学习demo\net_core-start\RazorPages\obj\Debug\netcoreap
 E:\我的资料\net_core学习demo\net_core-start\RazorPages\obj\Debug\netcoreapp3.1\staticwebassets\RazorPages.StaticWebAssets.xml
 E:\我的资料\net_core学习demo\net_core-start\RazorPages\obj\Debug\netcoreapp3.1\RazorPages.genruntimeconfig.cache
 E:\我的资料\net_core学习demo\net_core-start\RazorPages\obj\Debug\netcoreapp3.1\RazorPages.csproj.CopyComplete
+E:\我的资料\net_core学习demo\net_core-start\RazorPages\obj\Debug\netcoreapp3.1\RazorPages.csprojAssemblyReference.cache
