@@ -18,3 +18,4 @@ E:\我的资料\net_core学习demo\net_core-start\Signalr\obj\Debug\netcoreapp3.
 E:\我的资料\net_core学习demo\net_core-start\Signalr\obj\Debug\netcoreapp3.1\Signalr.dll
 E:\我的资料\net_core学习demo\net_core-start\Signalr\obj\Debug\netcoreapp3.1\Signalr.pdb
 E:\我的资料\net_core学习demo\net_core-start\Signalr\obj\Debug\netcoreapp3.1\Signalr.genruntimeconfig.cache
+E:\我的资料\net_core学习demo\net_core-start\Signalr\obj\Debug\netcoreapp3.1\Signalr.csprojAssemblyReference.cache

@@ -1,0 +1,12 @@
+E:\我的资料\net_core学习demo\net_core-start\gRPC\obj\Debug\netcoreapp3.1\gRPC.csprojAssemblyReference.cache
+E:\我的资料\net_core学习demo\net_core-start\gRPC\obj\Debug\netcoreapp3.1\gRPC.csproj.CoreCompileInputs.cache
+E:\我的资料\net_core学习demo\net_core-start\gRPC\obj\Debug\netcoreapp3.1\gRPC.MvcApplicationPartsAssemblyInfo.cache
+E:\我的资料\net_core学习demo\net_core-start\gRPC\obj\Debug\netcoreapp3.1\gRPC.AssemblyInfoInputs.cache
+E:\我的资料\net_core学习demo\net_core-start\gRPC\obj\Debug\netcoreapp3.1\gRPC.AssemblyInfo.cs
+E:\我的资料\net_core学习demo\net_core-start\gRPC\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\我的资料\net_core学习demo\net_core-start\gRPC\bin\Debug\netcoreapp3.1\appsettings.json
+E:\我的资料\net_core学习demo\net_core-start\gRPC\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\我的资料\net_core学习demo\net_core-start\gRPC\bin\Debug\netcoreapp3.1\gRPC.exe
+E:\我的资料\net_core学习demo\net_core-start\gRPC\obj\Debug\netcoreapp3.1\gRPC.RazorTargetAssemblyInfo.cache
+E:\我的资料\net_core学习demo\net_core-start\gRPC\obj\Debug\netcoreapp3.1\staticwebassets\gRPC.StaticWebAssets.Manifest.cache
+E:\我的资料\net_core学习demo\net_core-start\gRPC\obj\Debug\netcoreapp3.1\staticwebassets\gRPC.StaticWebAssets.xml

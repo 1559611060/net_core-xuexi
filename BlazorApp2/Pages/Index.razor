@@ -1,0 +1,52 @@
+﻿@page "/"
+@using GRpcApi
+@using BlazorApp2.Service
+
+@inject IDepartmentSevice DepartmentSevice
+
+
+@if (_departments == null)
+{
+    <p>
+        <em>加载中</em>
+    </p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-10 offset-md-2">
+            <table class="table">
+                <tr>
+                    <th>名称</th>
+                    <th>地址</th>
+                    <th>人数</th>
+                    <th>操作</th>
+                </tr>
+                @foreach (var item in _departments)
+                {
+                    <DepatmentItem department="@item"></DepatmentItem>
+                }
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-4 offset-md-2">
+            <a href="/Add-Department">添加</a>
+        </div>
+    </div>
+}
+
+
+
+@code{
+    IEnumerable<Department> _departments;
+    //页面第一次初始化执行
+    protected override async Task OnInitializedAsync()
+    {
+        _departments = await DepartmentSevice.GetAll();
+    }
+
+
+}

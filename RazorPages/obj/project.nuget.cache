@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "U6mG2hjoddq6OrmV2TKRafY2A5oahW32QBmSFzQpIPsW7FwzLon5jn6BUdoepSvxv2THxSgcZOqUb7UHtRxv+Q==",
+  "dgSpecHash": "FM62Td0KDQgKvZbdZ5SW0thMMF6NWvDwwR5GiCoNNkg2xbOB3v9F5R9shz3CAVjfot3UdF7HV5aBs9OqKA80DQ==",
   "success": true,
   "projectFilePath": "E:\\我的资料\\net_core学习demo\\net_core-start\\RazorPages\\RazorPages.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\少年别封\\.nuget\\packages\\buildbundlerminifier\\3.2.447\\buildbundlerminifier.3.2.447.nupkg.sha512"
+    "C:\\Users\\Zp\\.nuget\\packages\\buildbundlerminifier\\3.2.447\\buildbundlerminifier.3.2.447.nupkg.sha512"
   ],
   "logs": []
 }

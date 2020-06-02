@@ -1,0 +1,22 @@
+﻿@*
+    Router：路由
+    AppAssembly：程序集 指定Program里的内容
+
+*@
+<Router AppAssembly="@typeof(Program).Assembly">
+    @*
+        找到了路由走Found
+        MainLayout：母页面
+    *@
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+    </Found>
+    @*
+        没有找到了路由走NotFound
+    *@
+    <NotFound>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <p>Sorry, there's nothing at this address.</p>
+        </LayoutView>
+    </NotFound>
+</Router>

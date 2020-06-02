@@ -1,0 +1,16 @@
+﻿@using GRpcApi
+<tr>
+    <td>@Department.Name</td>
+    <td>@Department.Location</td>
+    <td>@Department.EmployeeCount</td>
+    <td>
+        <a href="/employee/@Department.Id">
+            查看详情
+        </a>
+    </td>
+
+</tr>
+@code {
+    [Parameter]
+    public Department Department { get; set; }
+}

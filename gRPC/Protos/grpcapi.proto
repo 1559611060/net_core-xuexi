@@ -1,0 +1,79 @@
+syntax = "proto3";
+
+option csharp_namespace = "GRpcApi";
+
+package gAPI;
+
+service Deparments{
+	rpc GetAll(GetAllDepartmentsRequest) returns (GetAllDepartmentsResponse){}
+	rpc Add(AddDepatmentRequest) returns (AddDepartmentResponse){}
+}
+
+message GetAllDepartmentsRequest{}
+message GetAllDepartmentsResponse{
+	repeated Department Deparments=1;
+}
+
+
+message AddDepatmentRequest{
+	Department deparment=1;
+}
+message AddDepartmentResponse{
+	Department deparment=1;
+}
+message Department{
+	int32 Id=1;
+	string Name=2;
+	string Location=3;
+	int32 EmployeeCount=4;
+	
+}
+//   ---------------------------------------------------------
+
+service Employees{
+	rpc GetByDepartmentId(GetByDepartmentIdRequest) returns (GetByDepartmentIdRsponse){}
+	rpc AddEmployee(AddEmployeeRequest) returns (AddEmployeeRsponse){}
+	rpc FireEmployee(FireEmployeeRequest) returns (FireEmployeeRsponse){}
+}
+
+message GetByDepartmentIdRequest{
+	int32 departmentId=1;
+}
+message GetByDepartmentIdRsponse{
+    repeated Employee smployees =1;
+}
+
+message AddEmployeeRequest{
+  Employee employee=1;
+}
+message AddEmployeeRsponse{
+	Employee employee=1;
+}
+
+message FireEmployeeRequest{
+	int32 Id=1;
+}
+message FireEmployeeRsponse{
+	Employee employee=1;
+}
+
+message Employee{
+	int32 Id=1;
+	int32 DepartmentId=2;
+	string Name=3;
+	string FristName=4;
+	Gender gender=5;
+	bool Fired=6;
+	
+	
+
+}
+enum Gender{
+	option allow_alias=true;
+	 
+	FRMALE=0;//Å®
+	MALE=1;//ÄÐ
+
+	WOMAN=0;//Å®
+	MAN=1;//ÄÐ
+}

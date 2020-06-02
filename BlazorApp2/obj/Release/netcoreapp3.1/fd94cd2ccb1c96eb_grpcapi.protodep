@@ -1,0 +1,2 @@
+obj\Release\netcoreapp3.1/Grpcapi.cs \
+obj\Release\netcoreapp3.1/GrpcapiGrpc.cs: ../gRPC/Protos/grpcapi.proto

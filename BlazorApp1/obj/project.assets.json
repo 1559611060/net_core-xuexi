@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\少年别封\\.nuget\\packages\\": {},
+    "C:\\Users\\Zp\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -17,14 +17,14 @@
       "projectUniqueName": "E:\\我的资料\\net_core学习demo\\net_core-start\\BlazorApp1\\BlazorApp1.csproj",
       "projectName": "BlazorApp1",
       "projectPath": "E:\\我的资料\\net_core学习demo\\net_core-start\\BlazorApp1\\BlazorApp1.csproj",
-      "packagesPath": "C:\\Users\\少年别封\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Zp\\.nuget\\packages\\",
       "outputPath": "E:\\我的资料\\net_core学习demo\\net_core-start\\BlazorApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\少年别封\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Zp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -32,7 +32,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://dev.iduo.cc:8824/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -66,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

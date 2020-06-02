@@ -25,4 +25,10 @@
 三、SignalR:(信息传递，可以做网页聊天，传送文件等二进制文件流)
 	1.前端libman地址：@aspnet/signalr@next
 	2.SignalR三种底层信息交互机制：Web Socket > Server Sent Events > Long Polling (回落机制自动选择某种机制，优先级排序)
-								   
+	3.直接进入index.html页面							   
+
+四、Blazor：宿主模型
+
+五、gRPC
+    1.Nuget 一个Grpc.AspNetCore 的包
+	2.使用前面的【BlazorApp1】复制项目BlazorApp2作为客户端调用gRPC，【BlazorApp2】同样要Nuget 一个Grpc.AspNetCore 的包，编辑项目文件新增一行引入文件代码
